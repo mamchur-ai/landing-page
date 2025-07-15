@@ -1,0 +1,86 @@
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 15px 200px;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+/* Header top */
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header__nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header__nav-link, .header__nav-link > a, .header__content-text {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+/* Header bottom */
+
+.header__bottom {
+    padding: 100px 0;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.header__content-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    line-height: 85%;
+}
+
+.header__image-placeholder {
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    max-width: 130px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0 none #3882f6;
+  
+}
+
+
+/* main */
