@@ -88,6 +88,7 @@ button {
 .section__information {
     display: flex;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .section__information-title {
@@ -117,4 +118,28 @@ button {
 
 .section__information-item-subtext {
     font-size: 14px;
+}
+
+
+/* quote */
+
+.section__quote {
+    background-color: #e5e7eb;
+}
+
+.section__quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 150px;
+}
+
+.section__quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.section__quote-subtext {
+    align-self: flex-end;
+    font-weight: 800;
 }
