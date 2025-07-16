@@ -84,3 +84,37 @@ button {
 
 
 /* main */
+
+.section__information {
+    display: flex;
+    text-align: center;
+}
+
+.section__information-title {
+    margin: 25px 0 40px 0;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.section__information-item-list {
+    display: flex;
+    gap: 40px;
+}
+
+.sectiion__information-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+}
+
+.section__information-item-image-placeholder {
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+}
+
+.section__information-item-subtext {
+    font-size: 14px;
+}
