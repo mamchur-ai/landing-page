@@ -101,6 +101,8 @@ body {
 .section__information-item-list {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center
 }
 
 .sectiion__information-item {
@@ -156,14 +158,15 @@ body {
     width: 100%;
     background-color: #3882f6;
     border-radius: 5px;
-    padding: 35px 0;
     display: flex;
     justify-content: space-around;
+    padding: 35px;
     gap: 70px;
     color: #f9faf8;
 }
 
 .call-text {
+    margin: 0 35px;
 }
 
 .call-title {
@@ -179,4 +182,16 @@ body {
 
 .btn-reverse {
     border: 2px solid #f9faf8;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    padding: 10px;
+}
+
+.footer-text {
+    color: #f9faf8;
+    text-align: center;
 }
